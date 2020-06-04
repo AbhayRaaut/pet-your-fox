@@ -155,7 +155,7 @@ Object.defineProperty(exports, "__esModule", {
   value: true
 });
 exports.getNextPoopTime = exports.getNextDieTime = exports.getNextHungerTime = exports.NIGHT_LENGTH = exports.DAY_LENGTH = exports.SCENES = exports.RAIN_CHANCE = exports.ICONS = exports.TICK_RATE = void 0;
-const TICK_RATE = 1000;
+const TICK_RATE = 3000;
 exports.TICK_RATE = TICK_RATE;
 const ICONS = ["fish", "poop", "weather"];
 exports.ICONS = ICONS;
@@ -163,7 +163,7 @@ const RAIN_CHANCE = 0.2;
 exports.RAIN_CHANCE = RAIN_CHANCE;
 const SCENES = ["day", "rain"];
 exports.SCENES = SCENES;
-const DAY_LENGTH = 25;
+const DAY_LENGTH = 60;
 exports.DAY_LENGTH = DAY_LENGTH;
 const NIGHT_LENGTH = 5;
 exports.NIGHT_LENGTH = NIGHT_LENGTH;
