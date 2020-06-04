@@ -163,9 +163,9 @@ const RAIN_CHANCE = 0.2;
 exports.RAIN_CHANCE = RAIN_CHANCE;
 const SCENES = ["day", "rain"];
 exports.SCENES = SCENES;
-const DAY_LENGTH = 10;
+const DAY_LENGTH = 25;
 exports.DAY_LENGTH = DAY_LENGTH;
-const NIGHT_LENGTH = 4;
+const NIGHT_LENGTH = 5;
 exports.NIGHT_LENGTH = NIGHT_LENGTH;
 
 const getNextHungerTime = clock => Math.floor(Math.random() * 3) + 5 + clock;
