@@ -71,6 +71,7 @@ const gameState = {
     this.sleepTime = -1;
     this.dieTime = -1;
     this.poopTime = -1;
+    this.hungryTime = -1;
     this.timeToEndCelebrating = -1;
     this.timeToStartCelebrating = -1;
   },
